@@ -1,77 +1,149 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Archivo', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: #f5f5f5; /* Color de fondo opcional */
-    padding: 10px;
-}
-
-header h1 {
-    margin-right: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-}
-
-nav ul {
+    padding: 20px 40px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .menu {
     list-style: none;
     display: flex;
-    gap: 15px;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
+    gap: 30px;
+  }
+  
+  .menu li {
     display: inline;
-}
-
-nav ul li a {
+  }
+  
+  .menu a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: #fff;
-}
-
-.text-content {
-    max-width: 50%;
-    
-}
-
-.image-content img {
-    border-radius: 10px;
-    width: 100%;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .icons i {
+    font-size: 20px;
     cursor: pointer;
-    margin-top: 10px;
-    font-size: 16px;
-}
-.Container{
-    width: 1300px;
-    margin-left: auto;
+  }
+  
+  #hero {
+    text-align: left;
+    padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-main {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .btn-main:hover {
+    background-color: gray;
+  }
+  
+  .hero-image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid rgb(250, 250, 250);
+  }
+  
+  .hero-image .tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: pink;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .collection {
+    text-align: left;
+    padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .collection h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+  
+  .car-item:first-child img {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .btn-secondary {
+    display: block;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn-secondary:hover {
+    background: black;
+    color: white;
+  }
+  .container{
     margin-right: auto;
-}
+    margin-left: auto;
+    width: 1512px;
+  }
