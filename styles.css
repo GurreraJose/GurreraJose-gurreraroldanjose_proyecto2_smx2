@@ -41,12 +41,7 @@ body {
     cursor: pointer;
   }
   
-  #hero {
-    text-align: left;
-    padding: 60px;
-    max-width: 1200px;
-    margin: auto;
-  }
+
   
   .hero h1 {
     font-size: 3em;
@@ -149,3 +144,158 @@ body {
     text-align: center;
     align-items: center;
   }
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .imagen {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+  }
+  .Boutique{ 
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .textoimagen1{
+    text-align: center; 
+    font-size: 16px; 
+  }
+  .vitesse{
+    margin-top: 100px;
+    width: 300px; 
+    height: 450px; 
+    margin-right: 20px; 
+    display: flex;
+    margin-left: 450px;
+  }
+  .vitesse2{
+    text-align: center;
+  }
+  .BotonCirculo{
+    border: 100px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1512px;
+}
+
+.footer_principio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_titulo2 {
+    font-size: 4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.footer_color {
+    margin: 20px 0;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    outline: 0;
+    color: #333;
+}
+
+.footer_input::placeholder {
+    color: #ccc;
+}
+
+.logos_pay {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer3 {
+    display: flex;
+    gap: 40px;
+}
+
+.footer_menu {
+    width: 100px;
+}
+
+.titulo-menu, .titulo-productos {
+    margin-bottom: 30px;
+}
+
+.lista_menu, .lista_productos {
+    padding: 0;
+}
+
+.menu, .producots2 {
+    list-style: none;
+    padding: 5px 0;
+    width: 100px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 250px;
+}
+
+.boton_footer {
+    border-radius: 50px;
+    padding: 8px 25px;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.producfooter {
+    width: 120px;
+}
+
+.productos {
+    width: 150px;
+    list-style-type: none;
+}
+
+.produc2{
+    width: 150px;
+}
+
+.redes_sociales {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 70px;
+    margin-left: 30px;
+}
+
+.final {
+    transform: scale(1.5);
+}
